@@ -24,25 +24,25 @@ export default function Home() {
   return (
     <div className="w600:p-[30px] w600:text-lg w400:p-5 w400:text-base p-10 text-xl leading-[1.7]">
       <p>
-        Hi, Im <strong>Andrew Jaya Susilo</strong>, a fresh graduate in
-        Information Systems with experience in Business Analysis, Data Analysis,
-        AI Data Annotation, and Business Intelligence.
+           Hi, I am <strong>Andrew Jaya Susilo</strong>, a fresh graduate in
+      Information Systems with experience in Business Analysis, Data Analysis,
+      and Business Intelligence.
       </p>
 
       <br />
 
       <p>
-        I have worked on data-driven projects involving Power BI, SQL, Python,
-        and machine learning. My interests include Business Intelligence, Data
-        Analytics, Process Improvement, and Product Development.
+            Skilled in Python, SQL, Power BI, Tableau, Excel, and Machine Learning.
+      Passionate about transforming data into actionable insights and supporting
+      data-driven decision making.
       </p>
 
       <br />
 
       <p>
-        Recently, I worked as a Junior IT Business Analyst at PT Computer Sistem
-        Indonesia and contributed to data management, business reporting, and
-        operational analysis projects.
+            Previously worked as a Junior IT Business Analyst at PT Computer Sistem
+      Indonesia, contributing to data management, business reporting, and
+      operational analysis projects across multiple retail branches.
       </p>
 
       <div className="mr-auto mt-10 flex w-full flex-wrap items-center gap-10">
