@@ -3,54 +3,52 @@ import {
   SiGithub,
   SiGmail,
   SiLinkedin,
-  SiMedium,
 } from '@icons-pack/react-simple-icons'
 
 export default function Home() {
   const links: { icon: IconType; href: string }[] = [
     {
       icon: SiGmail,
-      href: 'mailto:johndoe@gmail.com',
+      href: 'mailto:andrewjayasusilo01@gmail.com',
     },
     {
       icon: SiGithub,
-      href: 'https://github.com/johndoe',
+      href: 'https://github.com/Andrewjs14',
     },
     {
       icon: SiLinkedin,
-      href: 'https://www.linkedin.com/in/johndoe/',
-    },
-    {
-      icon: SiMedium,
-      href: 'https://medium.com/@johndoe',
+      href: 'https://www.linkedin.com/in/andrewjayasusilo/',
     },
   ]
 
   return (
     <div className="w600:p-[30px] w600:text-lg w400:p-5 w400:text-base p-10 text-xl leading-[1.7]">
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-        doloremque dolores accusamus rerum hic unde!
+        Hi, I'm <strong>Andrew Jaya Susilo</strong>, a fresh graduate in
+        Information Systems with experience in Business Analysis, Data Analysis,
+        AI Data Annotation, and Business Intelligence.
       </p>
 
       <br />
 
       <p>
-        This is the windowed portfolio neobrutalism template. Check the{' '}
-        <a
-          className="font-bold underline"
-          target="_blank"
-          href="https://github.com/neobrutalism-templates/windowed-portfolio"
-        >
-          github repo
-        </a>{' '}
-        for more info.
+        I have worked on data-driven projects involving Power BI, SQL, Python,
+        and machine learning. My interests include Business Intelligence, Data
+        Analytics, Process Improvement, and Product Development.
+      </p>
+
+      <br />
+
+      <p>
+        Recently, I worked as a Junior IT Business Analyst at PT Computer Sistem
+        Indonesia and contributed to data management, business reporting, and
+        operational analysis projects.
       </p>
 
       <div className="mr-auto mt-10 flex w-full flex-wrap items-center gap-10">
         {links.map((link, id) => {
           return (
-            <a target="_blank" key={id} href={link.href}>
+            <a target="_blank" rel="noreferrer" key={id} href={link.href}>
               <link.icon title="" />
             </a>
           )
