@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="w600:p-[30px] w600:text-lg w400:p-5 w400:text-base p-10 text-xl leading-[1.7]">
       <p>
-        Hi, I'm <strong>Andrew Jaya Susilo</strong>, a fresh graduate in
+        Hi, Im <strong>Andrew Jaya Susilo</strong>, a fresh graduate in
         Information Systems with experience in Business Analysis, Data Analysis,
         AI Data Annotation, and Business Intelligence.
       </p>
