@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 const archivo = Archivo({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Andrew Jaya Susilo | Data Analyst',
+  title: 'Andrew Jaya Susilo',
 }
 
 export default function RootLayout({
