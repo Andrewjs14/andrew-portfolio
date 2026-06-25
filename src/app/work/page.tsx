@@ -3,32 +3,31 @@ import { AspectRatio } from '@/components/ui/aspect-ratio'
 export default function Page() {
   const PROJECTS = [
     {
-      name: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
+      name: 'Diabetes Prediction System',
+      description: 'Random Forest and Streamlit application for diabetes risk prediction using healthcare datasets.',
+      techStack: 'Python • Pandas • Scikit-Learn • Random Forest • Streamlit',
       previewImage: '/project1.jpeg',
-      repoUrl: 'https://github.com',
     },
     {
-      name: 'Project 2',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
+      name: 'Football Player Position Classification',
+      description: 'CNN-based computer vision model for football player position classification from heatmap images.',
+      techStack: 'Python • TensorFlow • Keras • CNN • OpenCV',
       previewImage: '/project2.jpeg',
-      repoUrl: 'https://github.com',
+      
     },
     {
-      name: 'Project 3',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
+      name: 'Business Intelligence Dashboard',
+      description: 'Interactive Power BI dashboard for revenue analysis, KPI tracking, and business performance monitoring.',
+      techStack: 'Power BI • DAX • Power Query • Excel',
       previewImage: '/project3.jpeg',
-      repoUrl: 'https://github.com',
+     
     },
     {
-      name: 'Project 4',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
+      name: 'Heart Disease Prediction System',
+      description: 'Machine learning application for heart disease risk assessment using clinical patient data.',
+      techStack: 'Python • Pandas • Scikit-Learn • Streamlit',
       previewImage: '/project4.jpeg',
-      repoUrl: 'https://github.com',
+    
     },
   ]
 
@@ -52,31 +51,24 @@ export default function Page() {
                 />
               </AspectRatio>
 
-              <div className="mt-6">
-                <h2 className="w700:text-2xl w450:text-xl text-3xl font-bold">
-                  {project.name}
-                </h2>
-
-                <p className="w450:text-base mt-5 text-lg">
-                  {project.description}
-                </p>
-
-                <div className="w400:text-sm mt-8 grid grid-cols-2 gap-5 text-base">
-                  <a
-                    className="border-border text-main-foreground shadow-shadow rounded-base bg-main hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center uppercase transition-all hover:shadow-none"
-                    href={project.liveLink}
-                    target="_blank"
-                  >
-                    Visit
-                  </a>
-                  <a
-                    className="border-border text-main-foreground shadow-shadow rounded-base bg-main hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center uppercase transition-all hover:shadow-none"
-                    href={project.repoUrl}
-                    target="_blank"
-                  >
-                    Github
-                  </a>
-                </div>
+               <div className="mt-6">
+                   <h2 className="w700:text-2xl w450:text-xl text-3xl font-bold">
+                       {project.name}
+                   </h2>
+              
+                    <p className="w450:text-base mt-5 text-lg">
+                       {project.description}
+                     </p>
+              
+                   <div className="mt-8">
+                   <p className="text-sm font-semibold uppercase tracking-wide">
+                    Tech Stack
+                   </p>
+              
+                    <p className="mt-2 text-sm opacity-80">
+                    {project.techStack}
+                     </p>
+                   </div>
               </div>
             </div>
           </div>
