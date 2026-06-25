@@ -43,7 +43,7 @@ export default function Page() {
             <div className="w800:w-full mx-auto w-3/4">
               <AspectRatio
                 className="rounded-base shadow-shadow -bottom-[2px]! border-2 border-black"
-                ratio={16 / 9}
+                ratio={2 / 1}
               >
                 <img
                   className="rounded-base w-full"
