@@ -6,7 +6,7 @@ export default function Page() {
       name: 'Project 1',
       description: 'Lorem ipsum dolor sit amet',
       liveLink: 'https://google.com',
-      previewImage: '/project1.png',
+      previewImage: '/project1.jpeg',
       repoUrl: 'https://github.com',
     },
     {
